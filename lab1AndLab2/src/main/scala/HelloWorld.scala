@@ -18,7 +18,6 @@ object HelloWorld {
     extractData("adm:x:3:4:adm:/var/adm:/sbin/nologin")
     extractData("lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin")
     extractData("sync:x:5:0:sync:/sbin:/bin/sync")
-
   }
 
 
@@ -50,7 +49,7 @@ object HelloWorld {
       case "09" => print("September ")
       case "10" => print("October ")
       case "11" => print("November ")
-      case "12" => print("December")
+      case "12" => print("December ")
     }
     year match {
       case i => println("20" + i)

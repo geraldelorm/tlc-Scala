@@ -144,7 +144,7 @@ object Monday {
 
     //for each
     (10 to 20) foreach (println(_))
-//    (10 to 20).foreach (println(_)) this also works
+//    (10 to 20).foreach(println(_)) this also works
 
   }
 }

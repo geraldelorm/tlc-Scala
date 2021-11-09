@@ -1,7 +1,9 @@
 import org.scalatest.funsuite.AnyFunSuite
 
 class TradeTest extends AnyFunSuite{
-  val trade = new Trade("001", "AMD", 2, 5.0)
+  val trade: Trade = Trade("001", "AMD", 2, 5.0)
+  val trade2: Trade = Trade("001", "AMD", 2, 5.0)
+
   test("trade.value"){
     assert(trade.value === 10.0)
   }
@@ -12,7 +14,7 @@ class TradeTest extends AnyFunSuite{
   }
 
   test("trade.equals"){
-    assert(trade.equals(trade) === true)
+    assert(trade.equals(trade2) === true)
   }
 
   test("trade.hashcode"){

@@ -1,6 +1,6 @@
 object Main extends App{
 
-  val trade = new Trade("001", "AMD", 200, 500)
+  val trade = Trade("001", "AMD", 200, 500)
   println(trade)
   trade.price = 50.09
   println(trade)
@@ -10,7 +10,7 @@ object Main extends App{
   println("************")
   println("")
 
-  val trade2 = new Trade("002", "GOG", 10, 25)
+  val trade2 = Trade("002", "GOG", 10, 25)
   println(trade2.hashCode())
 
 }

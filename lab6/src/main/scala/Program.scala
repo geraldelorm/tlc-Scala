@@ -37,7 +37,7 @@ object Program extends App {
   println("Q6")
   println("### Data Structure that arranges content o the directory according to the first letter of their name")
 //  val grouped = listOfFiles.groupBy(a => a.getName.charAt(0))
-  val grouped = listOfFiles.groupBy(file => file.getName.charAt(0))
+  val grouped = listOfFiles.toList.groupBy(file => file.getName.charAt(0))
   println(grouped)
 
 }

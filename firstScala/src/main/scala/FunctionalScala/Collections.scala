@@ -72,7 +72,7 @@ object Collections extends App {
   println(set + 100) // appends 100 to the set
 
   //Maps i.e (Key, Value) pairs
-  val caps = Map ("UK" -> "London", "GHANA" -> "Accra")
+  val caps = Map ("UK" -> "London", "GHANA" -> "Accra", "USA" -> "Washington DC")
   println(caps)
   println(caps.keys)
   println(caps.values)
@@ -84,9 +84,6 @@ object Collections extends App {
 
 
   //WORKING WITH COLLECTIONS - ie Streaming "LOL :)"
-
-
-
 
 
 }

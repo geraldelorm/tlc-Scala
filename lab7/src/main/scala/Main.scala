@@ -7,9 +7,9 @@ class ListOfAny(val listOfAny: List[Any]) {
 //    case listOfInt: List[Double] => listOfInt.sum
 //    case listOfInt: List[_] => listOfInt.concat(" ")
 //  }
-
   def add(elem: Int) = listOfAny :+ elem
 }
+
 object Main extends App{
   val newList = new ListOfAny(List(1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ,7.0 ))
   println(newList.count)
